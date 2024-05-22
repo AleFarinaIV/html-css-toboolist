@@ -23,15 +23,18 @@ html {
         }
     }
     main {
-        .m-40{
+        .mb-40{
             margin: 0px 0 0 40px
         }
         .overlay {
             background-color: white;
             border-radius: 5px;
             width: 1200px;
-            height: 510px;
+            height: 525px;
             margin: 0 auto;
+            .size{
+                padding: 15px 0 8px 0;
+            }
         }
         p{
             display: inline-block;
@@ -57,17 +60,27 @@ html {
         }
         .line {
             border: 1px solid rgb(248, 248, 248);
+            margin-bottom: 25px;
         }
         li {
             margin: 15px 0 10px 25px;
             font-size: 18px;
             
-            .circle{
+            .circle {
                 background-color: white;
                 border: 1px solid rgb(44, 193, 44);
                 padding: 3px 5px 3px 4px;
                 border-radius: 50%;
                 color: rgb(44, 193, 44);
+                font-size: 10px;
+                margin: 0 10px 0 -25px;
+            }
+            .circleX {
+                background-color: white;
+                border: 1px solid rgb(221, 38, 38);
+                padding: 3px 5px 3px 4px;
+                border-radius: 50%;
+                color: rgb(221, 38, 38);
                 font-size: 10px;
                 margin: 0 10px 0 -25px;
             }
