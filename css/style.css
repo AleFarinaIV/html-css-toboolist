@@ -25,9 +25,6 @@ html {
             }
         }
         main {
-            .mb-40 {
-                margin: 0 0 0 40px
-            }
             .overlay {
                 background-color: white;
                 border-radius: 5px;
@@ -37,6 +34,9 @@ html {
                 .size {
                     padding: 15px 0 8px 0;
                 }
+            }
+            .ml-40 {
+                margin-left: 40px
             }
             p {
                 display: inline-block;
@@ -95,6 +95,27 @@ html {
                     color:white;
                     background-color: rgb(40, 160, 230);
                     font-size: 10px;
+                    border: 1px solid rgb(0 128 202);
+                }
+                .purpleBg {
+                    background-color: rgb(142, 62, 218);
+                    border: 1px solid rgb(124 17 173);
+                }
+                .greenBg {
+                    background-color: rgb(53, 202, 140);
+                    border: 1px solid rgb(0 192 113);
+                }
+                .orangeBg {
+                    background-color: rgb(235, 153, 0);
+                    border: 1px solid rgb(253 181 49);
+                }
+                .pinkBg {
+                    background-color: rgb(219, 88, 165);
+                    border: 1px solid rgb(226 14 139);
+                }
+                .yellowBg {
+                    background-color: rgb(162, 194, 18);
+                    border: 1px solid rgb(210 255 9);
                 }
             }
         }
